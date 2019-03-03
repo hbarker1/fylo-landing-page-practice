@@ -5,17 +5,20 @@
 
 body {
     background-color: lightgray;
+
 }
 
 .container {
     display: flex;
+    align-items: center;
     
 
 
 }
 
 .container-left {
-    background-color: purple;
+    background-color: white;
+    background-image: url("/Users/hannahbarker/Documents/dev/independent-code/fylo-landing-page/images/bg-intro.svg");
     display:flex;
     justify-content: center;
     align-items: center;
@@ -35,12 +38,11 @@ img#illustration {
 }
 
 .container-right{
-    background-color: purple;
+    background-color: white;
     display:flex;
     flex-wrap: wrap;
     width: 50vw;
     height: 50vw;
-    align-items: flex-end;
     
 
 }
@@ -49,8 +51,8 @@ img#illustration {
 
 
 .head {
-    display:flex;
-    align-items: flex-start;
+    position: absolute;
+    margin: 10px 10px 10px 40px;
     padding: 30px;
 
 
@@ -58,6 +60,21 @@ img#illustration {
 
 .content {
 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
 
 }
 
@@ -98,4 +115,19 @@ button {
     .attribution a { 
         color: hsl(228, 45%, 44%); 
     
+    }
+
+
+
+
+
+    @media only screen and (min-width: 375px) {
+
+
+
+
+
+
+
+
     }
