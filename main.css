@@ -3,16 +3,30 @@
     border: 1px solid pink;
 }
 
+body {
+    background-color: lightgray;
+}
 
 .container {
+    display: flex;
+    
+
 
 }
 
 .container-left {
+    background-color: purple;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vw;
 
 }
 
 img#background {
+    
+    width: 200px;
 
 }
 
@@ -21,11 +35,23 @@ img#illustration {
 }
 
 .container-right{
-
+    background-color: purple;
+    display:flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 50vw;
+    align-items: flex-end;
+    
 
 }
 
+
+
+
 .head {
+    display:flex;
+    align-items: flex-start;
+    padding: 30px;
 
 
 }
@@ -36,17 +62,31 @@ img#illustration {
 }
 
 
-.sign-up {
 
+.sign-up {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+    
+    
+
+}
+
+h3 {
+    height: 30px;
 }
 
 
 input {
+    height: 30px;
     color: blue;
 }
 
 button {
     background-color: gray;
+    height: 30px;
+   
 }
 
 
