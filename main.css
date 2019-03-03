@@ -1,3 +1,55 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid pink;
+}
+
+
+.container {
+
+}
+
+.container-left {
+
+}
+
+img#background {
+
+}
+
+img#illustration {
+
+}
+
+.container-right{
+
+
+}
+
+.head {
+
+
+}
+
+.content {
+
+
+}
+
+
+.sign-up {
+
+}
+
+
+input {
+    color: blue;
+}
+
+button {
+    background-color: gray;
+}
+
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
